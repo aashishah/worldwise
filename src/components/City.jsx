@@ -29,7 +29,6 @@ function City() {
 
   if (isLoading) return <Spinner />;
 
-  console.log(cityName, id, emoji);
   return (
     <div className={styles.city}>
       <div className={styles.row}>
